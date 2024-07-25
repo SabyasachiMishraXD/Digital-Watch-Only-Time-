@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .clockHolder {
+    width: 100%;
+    max-width: 600px;
+    background-color: #1b252a;
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 3px solid #f5ee62;
+    box-shadow: rgba(222, 238, 42, 0.1) 0px 4px 6px;
+    text-align: center;
+  }
+
+  .timeHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeOptions {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: aliceblue;
+  }
+
+  .mainDiv {
+    margin-top: 20px;
+  }
+
+  #clock {
+    font-size: 4rem;
+    color: aliceblue;
+  }
